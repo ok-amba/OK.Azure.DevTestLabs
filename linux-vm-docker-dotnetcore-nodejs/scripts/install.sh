@@ -7,6 +7,7 @@ sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/mast
 sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/master/linux-vm-docker-dotnetcore-nodejs/scripts/install-git.sh
 sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/master/linux-vm-docker-dotnetcore-nodejs/scripts/install-azure-cli.sh
 sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/master/linux-vm-docker-dotnetcore-nodejs/scripts/install-azure-devops.sh
+sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/master/linux-vm-docker-dotnetcore-nodejs/scripts/install-chrome.sh
 
 sudo chmod +x install-docker.sh
 sudo chmod +x install-nodejs.sh
@@ -14,6 +15,7 @@ sudo chmod +x install-dotnetcore.sh
 sudo chmod +x install-git.sh
 sudo chmod +x install-azure-cli.sh
 sudo chmod +x install-azure-devops.sh
+sudo chmod +x install-chrome.sh
 
 ./install-docker.sh 
 ./install-nodejs.sh
@@ -21,3 +23,4 @@ sudo chmod +x install-azure-devops.sh
 ./install-git.sh
 ./install-azure-cli.sh
 ./install-azure-devops.sh "$@"
+./install-chrome.sh
