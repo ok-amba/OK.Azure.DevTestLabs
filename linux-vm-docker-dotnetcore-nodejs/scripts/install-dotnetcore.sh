@@ -9,3 +9,6 @@ sudo apt-get install -y dotnet-sdk-3.0
 
 # Dependencies for Aspose (dotnet core drawing)
 apt-get install -y --allow-unauthenticated libc6-dev libgdiplus libx11-dev
+
+# Install EF Core CLI
+dotnet tool install --global dotnet-ef
