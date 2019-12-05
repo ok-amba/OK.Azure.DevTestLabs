@@ -4,11 +4,11 @@ sudo dpkg -i packages-microsoft-prod.deb
 
 sudo apt-get install -y apt-transport-https
 sudo apt-get update
-sudo apt-get install -y dotnet-sdk-2.2
 sudo apt-get install -y dotnet-sdk-3.0
+sudo apt-get install -y dotnet-sdk-3.1
 
 # Dependencies for Aspose (dotnet core drawing)
 apt-get install -y --allow-unauthenticated libc6-dev libgdiplus libx11-dev
 
 # Install EF Core CLI
-dotnet tool install --global dotnet-ef
+sudo dotnet tool install --global dotnet-ef --version 3.1
