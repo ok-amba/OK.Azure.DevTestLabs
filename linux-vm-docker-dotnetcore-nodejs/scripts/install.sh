@@ -10,14 +10,7 @@ sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/mast
 sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/master/linux-vm-docker-dotnetcore-nodejs/scripts/install-chrome.sh
 sudo curl -O https://raw.githubusercontent.com/ok-amba/OK.Azure.DevTestLabs/master/linux-vm-docker-dotnetcore-nodejs/scripts/install-sqlcmd.sh
 
-sudo chmod +x install-docker.sh
-sudo chmod +x install-nodejs.sh
-sudo chmod +x install-dotnetcore.sh
-sudo chmod +x install-git.sh
-sudo chmod +x install-azure-cli.sh
-sudo chmod +x install-azure-devops.sh
-sudo chmod +x install-chrome.sh
-sudo chmod +x install-sqlcmd.sh
+sudo chmod +x install-*.sh
 
 ./install-docker.sh 
 ./install-nodejs.sh
