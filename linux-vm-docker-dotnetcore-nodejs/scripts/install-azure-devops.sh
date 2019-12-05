@@ -1,7 +1,7 @@
-wget -q https://vstsagentpackage.azureedge.net/agent/2.142.1/vsts-agent-linux-x64-2.142.1.tar.gz -P ~/
+wget -q https://vstsagentpackage.azureedge.net/agent/2.160.1/vsts-agent-linux-x64-2.160.1.tar.gz -P ~/
 mkdir ~/agent
 
-tar zxvf ~/vsts-agent-linux-x64-2.142.1.tar.gz -C ~/agent
+tar zxvf ~/vsts-agent-linux-x64-2.160.1.tar.gz -C ~/agent
 
 sudo ~/agent/bin/installdependencies.sh
 
