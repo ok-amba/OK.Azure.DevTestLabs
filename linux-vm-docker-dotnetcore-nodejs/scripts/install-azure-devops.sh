@@ -19,4 +19,6 @@ sudo ./svc.sh start
 # since theres a bug in installdependencies.sh
 # that favours libcurl3 instead of already-installed
 # libcurl4, thus, while downgrading it, removes curl itself.
+# also - i think installdependencies.sh broke apt
+sudo apt --fix-broken install -y
 sudo apt-get -y install curl
