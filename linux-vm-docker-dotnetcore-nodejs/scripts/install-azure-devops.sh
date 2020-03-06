@@ -10,7 +10,7 @@ tar zxvf _tmp/vsts-agent-linux-x64-2.160.1.tar.gz -C agent
 sudo chown -R build: agent
 
 sudo agent/bin/installdependencies.sh
-set -x
+
 cd agent && source config.sh --unattended --url https://okamba.visualstudio.com --auth pat --token "$2" --pool "$1" --agent "${HOSTNAME}-agent" --acceptTeeEula
 sudo ./svc.sh install
 sudo ./svc.sh start
