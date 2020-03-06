@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #prepare & install docker engine (https://docs.docker.com/compose/install)
 sudo apt-get install -y --no-install-recommends \
     apt-transport-https \

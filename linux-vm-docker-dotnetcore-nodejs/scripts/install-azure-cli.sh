@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #install azure cli 2.0
 #https://docs.microsoft.com/en-us/cli/azure/install-azure-cli#apt-get-for-debianubuntu
 
