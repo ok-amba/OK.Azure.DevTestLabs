@@ -6,18 +6,18 @@ export WORKING_DIR="/opt/buildagent"
 
 sudo chmod +x install-*.sh
 
-#./install-docker.sh 
+./install-docker.sh 
 #read -p "Press enter to install nodejs"
-#./install-nodejs.sh
+./install-nodejs.sh
 #read -p "Press enter to install dotnetcore"
-#./install-dotnetcore.sh
+./install-dotnetcore.sh
 #read -p "Press enter to install git"
-#./install-git.sh
+./install-git.sh
 #read -p "Press enter to install azure-cli"
-#./install-azure-cli.sh
+./install-azure-cli.sh
 #read -p "Press enter to install azure-devops"
 ./install-azure-devops.sh "$1" "$2"
-read -p "Press enter to install chrome"
+#read -p "Press enter to install chrome"
 ./install-chrome.sh
-read -p "Press enter to install sqlcmd"
+#read -p "Press enter to install sqlcmd"
 ./install-sqlcmd.sh
