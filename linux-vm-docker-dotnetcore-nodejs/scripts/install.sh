@@ -21,3 +21,5 @@ sudo chmod +x install-*.sh
 ./install-chrome.sh
 #read -p "Press enter to install sqlcmd"
 ./install-sqlcmd.sh
+#read -p "Press enter to install maven"
+./install-maven.sh
