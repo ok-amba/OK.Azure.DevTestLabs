@@ -14,3 +14,6 @@ sudo apt-get install -y --allow-unauthenticated libc6-dev libgdiplus libx11-dev
 
 # Install EF Core CLI
 sudo dotnet tool install --global dotnet-ef --version 3.1
+
+# Install report generator
+sudo dotnet tool install -g dotnet-reportgenerator-globaltool
